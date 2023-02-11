@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
+
+html {
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page__main {
+    /* Ảnh nền của trang đầu tiên nếu bạn muốn đổi thì đổi tại đây */
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size:cover ;
+    background-position-y: -13rem;
+    
+}
+
+.buttons {
+    display: flex;
+    column-gap: 3rem;
+    padding: 2rem;
+}
+.buttons:hover > :not(:hover){
+    opacity: .4;
+    transform: scale(0.9);
+}
+
+.btn-bir:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-bir {
+    background-image: linear-gradient(
+        to right,
+        #2e5174 0%,
+        #524287 51%,
+        #6d2245 100%
+    );
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.35s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn-timeline {
+    background-image: linear-gradient(
+        to right,
+        #2e5174 0%,
+        #524287 51%,
+        #6d2245 100%
+    );
+}
+.btn-timeline {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.35s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn-timeline:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-gallery {
+    background-image: linear-gradient(
+        to right,
+        #2e5174 0%,
+        #524287 51%,
+        #6d2245 100%
+    );
+}
+.btn-gallery {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.35s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn-gallery:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+
+}
+ul > li {
+    background-color: #fff;
+    border-radius: 1em ;
+    padding: 0,5em;
+    margin 1em 0;
+    align-items: center;
+    display: flex;
+    display: inline-block;
+}
+ul > li >a {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap:0em;
+
+}
+a {
+    color: black;
+    text-decoration: row;
+    justify-content: center;
+    align-content: center;
+    gap: 0rem;
+}
+ul {
+    text-align: center;
+    padding:auto;
+}
+.cover {
+    width: 240px;
+    height: 240px;
+   
+    box-shadow: 0 0 30px #eee;
+    position: absolute;
+    margin-top: 3rem;
+    left: calc(50% - 100px);
+    border-radius: 120px;
+    border: 5px solid rgb(209, 26, 9);
+}
+ 
